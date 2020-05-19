@@ -41,8 +41,8 @@ $(document).ready(function () {
     });
 });
 
-
-var deadline = new Date("mar 31, 2020 0:0:0").getTime();
+const deadlineDate = "mar 31, 2020 0:0:0";
+var deadline = new Date(deadlineDate).getTime();
 
 var i = setInterval(function () {
     var now = new Date().getTime();
